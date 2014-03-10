@@ -1,5 +1,5 @@
-*.aux
-*.log
-*.out
-*.gz
-*.fdb_latexmk
+.env
+*.html
+*.pdf
+*.docx
+*.txt
