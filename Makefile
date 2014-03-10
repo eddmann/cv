@@ -1,9 +1,12 @@
-all: clean cv.html
+all: clean cv.html cv.pdf
 
 cv.html: cv.md cv.css
 	pandoc --data-dir=. --section-divs -c cv.css -f markdown -t html5 -o cv.html cv.md
 
-watchdog:
+cv.pdf: cv.html
+	wkhtmltopdf --user-style-sheet pdf.css cv.html cv.pdf
+
+watch:
 	watchmedo shell-command --patterns="*.md;*.css" --command='make' .
 
 serve:

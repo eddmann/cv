@@ -1,0 +1,33 @@
+body {
+    margin: 10px auto 0 auto !important;
+    font-size: 14px !important;
+    width: 650px !important;
+}
+
+section {
+    margin: 0 !important;
+}
+
+section#contact {
+    margin: 0 0 10px 10px !important;
+}
+
+#skills ul {
+    margin-left: 20px !important;
+}
+
+#skills ul li {
+    float: left;
+    width: 150px;
+    margin: 0 0 10px 20px !important;
+}
+
+#work-experience {
+    margin-top: 60px !important;
+}
+
+#work-experience > ul > li, #education > ul > li {
+    padding: 0 0 20px 0 !important;
+    margin: 0 !important;
+    border-bottom: 0 !important;
+}
