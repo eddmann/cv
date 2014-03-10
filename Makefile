@@ -10,4 +10,4 @@ serve:
 	python -m http.server 8080
 
 clean:
-	rm -f *.html *.pdf *.docx *.txt
+	rm -f *.html *.pdf
