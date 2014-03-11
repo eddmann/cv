@@ -55,7 +55,7 @@ Skills
 Interests
 ---------
 
-*   Writing about new languages and technologies
+*   Writing online about new languages and technologies
 *   Weekly development podcast ([Three Devs and a Maybe](http://threedevsandamaybe.com)) with a group of friends
 *   Photography
 *   Basketball
@@ -68,17 +68,21 @@ Work Experience
 
     Software Developer, 2013 - 2014
 
-    -   This is a sample skill
+    -   Long-term Laravel 4 project with Sphinx searching
 
-    -   This is another sample skill
+    -   Use of Git, Vagrant and PHPUnit
+
+    -   Management of the full-stack, CentOS/Nginx/PHP/MySQL, [discussed here](http://eddmann.com/posts/installing-nginx-apache-mysql-php-5-5-lamp-stack-on-cent-os-6-4/)
 
 *   360 Software Solutions
 
     Web Developer, 2011 - 2013
 
-    -   This is a sample skill
+    -   Developed a modular MVC PHP content-management platform
 
-    -   This is another sample skill
+    -   Lead development on a large web-based mobile search engine startup
+
+    -   Created and shipped a iOS/Android mobile application using Titanium
 
 *   Robert Dyas
 
