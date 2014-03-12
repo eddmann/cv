@@ -40,7 +40,7 @@ body {
     line-height: 1.5em;
     color: #333;
     background-color: #FFF;
-    width: 700px;
+    width: 760px;
     margin: 50px auto 100px auto;
 }
 
@@ -59,7 +59,7 @@ h1.subtitle {
     font-size: 1.5em;
     font-weight: 100;
     margin: 20px 0 30px 0;
-    color: #DDD;
+    color: #AAA;
 }
 
 h2 {
@@ -89,7 +89,7 @@ ul li {
 }
 
 #contact {
-    background-color: #f7f7f7;
+    background-color: #F7F7F7;
     float: right;
     padding: 20px;
     margin: 0 0 20px 20px;
@@ -110,12 +110,21 @@ ul li {
 }
 
 #skills ul {
-    columns: 3 12em;
-    column-gap: 1em;
-    -moz-columns: 3 12em;
-    -moz-column-gap: 1em;
-    -webkit-columns: 3 12em;
-    -webkit-column-gap: 1em;
+    margin: 30px 0 0 10px;
+}
+
+#skills ul:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#skills ul li {
+    float: left;
+    width: 150px;
+    margin: 0 0 20px 20px;
 }
 
 #work-experience > ul, #education > ul {
@@ -126,7 +135,6 @@ ul li {
 #work-experience > ul > li, #education > ul > li {
     padding: 0 0 20px 0;
     margin: 20px 0;
-    border-bottom: 1px dotted #CCC;
 }
 
 #work-experience > ul > li > p, #education > ul > li > p {

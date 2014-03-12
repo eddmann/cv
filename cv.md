@@ -41,11 +41,11 @@ Skills
 *   Python
 *   JavaScript
 *   Scala
-*   Git
 *   Unit Testing/BDD
 *   Titanium SDK
+*   Git
 *   Sphinx
-*   Arch Linux
+*   Unix
 *   Laravel
 *   MySQL
 
