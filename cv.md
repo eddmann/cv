@@ -3,6 +3,7 @@ title: Edward Mann
 subtitle: Software Developer
 ---
 
+
 Contact
 -------
 
@@ -14,39 +15,36 @@ Contact
 Profile
 -------
 
-My passion is invested in the development and continued innovation of the web. Since leaving University
-a little over a year ago, I have had the opportunity to work in a small web development agency – spending
-significant time developing and releasing applications in OO-PHP (using MVC frameworks such as
-CodeIgniter and Laravel), Python and Java. Through this employment, I have been able to apply many
-concepts I learnt during my University course – along with handling real-world use-cases in the form of
-working with large startups and local businesses.
+Since leaving University I have had the opportunity to work for both a small web development agency and completing Freelance assignments.
+During this time I have developed and released applications in OO-PHP (i.e. CodeIgniter and Laravel), Python and Java.
+Through these experiences, I have been able to apply many concepts I learnt during my University course - along with handling real-world use-cases in the form of large startups and local businesses.
 
-In one such startup I was tasked with both the development and accompanying load-distributed CentOS,
-MySQL server’s setup. This included a web application written in CodeIgniter (inc. Database migrations,
-Composer for dependency management), internal maintenance/data crawlers written in Python/Bash and
-a mobile application written in JavaScript (Titanium SDK). The mobile application has since been
-successfully released into the iTunes and Android stores. All aspects took advantage of the Git version
-control system and unit tested in the case of the web application with PHPUnit.
+In one such startup I was tasked with both the development and accompanying load-distribution of a three server LAMP setup.
+This included a web application written in CodeIgniter, internal maintenance/data crawlers written in Python/Shell and a mobile application written in JavaScript (Titanium SDK).
+The mobile application has since been successfully released into the iTunes and Android stores.
 
-I enjoy the practical application of software design and development, however I still feel the need and
-find significant enjoyment in continuing to learn in this ever-changing field. As a result of this I spend
-many hours outside of work completing online University courses (Coursera), listening to podcasts,
-blogging about my latest technical interests and collaborating with peers on GitHub. This can also be
-seen by my decision to continue my studies this coming September to complete a Masters in Computer
-Science, having been accepted into both the University of Southampton and Kent.
+A large Freelance project I also undertook was to begin implementing the fundamental feature-set for a Resource Management System written in Laravel and Sphinx.
+This has since been successfully passed over to another developer, thanks to strong use of Git, Composer, Vagrant and PHPUnit (for meaningful testing).
+
+I enjoy the practical application of software design and development, however I still feel the need and find significant enjoyment in continuing to learn in this ever-changing field.
+As a result of this I spend many hours outside of work completing online University courses (Coursera), blogging about my latest technical interests and share a weekly podcast with a group of like-minded developers.
+
+I am ideally looking for a job where I can work with many different types of specialist, each who bring their own expertise to solve a common goal.
+I would also like the ability to continue my exploration of new technologies, allowing me to further my own education and the product I am involved in at that time.
 
 
 Skills
 ------
 
 *   Java
-*   Scala
-*   Python
 *   PHP
+*   Python
+*   JavaScript
+*   Scala
 *   Git
 *   Unit Testing/BDD
 *   Titanium SDK
-*   Unix
+*   Sphinx
 *   Arch Linux
 *   Laravel
 *   MySQL
@@ -56,7 +54,7 @@ Interests
 ---------
 
 *   Writing online about new languages and technologies
-*   Weekly development podcast ([Three Devs and a Maybe](http://threedevsandamaybe.com)) with a group of friends
+*   Weekly development podcast ([Three Devs and a Maybe](http://threedevsandamaybe.com)) with a group of previous work-colleagues
 *   Photography
 *   Basketball
 
@@ -66,17 +64,17 @@ Work Experience
 
 *   Freelance
 
-    Software Developer, 2013 - 2014
+    Software Developer
 
-    -   Long-term Laravel 4 project with Sphinx searching
+    -   Long-term Laravel 4 project with Sphinx
 
-    -   Use of Git, Vagrant and PHPUnit
+    -   Use of Git, Vagrant, Composer and PHPUnit
 
-    -   Management of the full-stack, CentOS/Nginx/PHP/MySQL, [discussed here](http://eddmann.com/posts/installing-nginx-apache-mysql-php-5-5-lamp-stack-on-cent-os-6-4/)
+    -   Management of the full-stack, CentOS/Nginx/PHP/MySQL
 
 *   360 Software Solutions
 
-    Web Developer, 2011 - 2013
+    Web Developer
 
     -   Developed a modular MVC PHP content-management platform
 
@@ -86,11 +84,7 @@ Work Experience
 
 *   Robert Dyas
 
-    Part-time Sales Assistant, 2006 - 2007
-
-*   Atkins Global
-
-    Work Experience, 2004
+    Part-time Sales Assistant
 
 
 Education
