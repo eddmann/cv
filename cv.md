@@ -80,7 +80,7 @@ Work Experience
 
     -   Lead development on a large web-based mobile search engine startup
 
-    -   Created and shipped a iOS/Android mobile application using Titanium
+    -   Created and shipped an iOS/Android mobile application using Titanium
 
 *   Robert Dyas
 
