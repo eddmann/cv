@@ -15,7 +15,7 @@ Contact
 Profile
 -------
 
-Since leaving University I have had the opportunity to work for both a small web development agency and completing Freelance assignments.
+Since leaving University I have had the opportunity to work for both a small web development agency and complete Freelance assignments.
 During this time I have developed and released applications in OO-PHP (i.e. CodeIgniter and Laravel), Python and Java.
 Through these experiences, I have been able to apply many concepts I learnt during my University course - along with handling real-world use-cases in the form of large startups and local businesses.
 
