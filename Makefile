@@ -1,9 +1,9 @@
-all: clean cv.html cv.pdf
+all: clean html pdf
 
-cv.html: cv.md cv.css
+html: cv.md cv.css
 	pandoc --data-dir=. --section-divs -c cv.css -f markdown -t html5 -o cv.html cv.md
 
-cv.pdf: cv.html
+pdf: html pdf.css
 	wkhtmltopdf --user-style-sheet pdf.css cv.html cv.pdf
 
 watch:
@@ -11,6 +11,13 @@ watch:
 
 serve:
 	python -m http.server 8080
+
+push:
+	ssh eddmann.com 'rm -rf /srv/www/eddmann/public/cv/*'
+	scp cv.html eddmann.com:/srv/www/eddmann/public/cv/index.html
+	scp cv.css eddmann.com:/srv/www/eddmann/public/cv/
+	scp -r fonts eddmann.com:/srv/www/eddmann/public/cv/
+	scp cv.pdf eddmann.com:/srv/www/eddmann/public/cv/EdwardMannProgrammerCV.pdf
 
 clean:
 	rm -f *.html *.pdf
