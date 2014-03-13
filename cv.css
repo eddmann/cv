@@ -75,6 +75,11 @@ ul li {
     margin: 10px 0 10px 25px;
 }
 
+#pdf {
+    margin-top: 10px;
+    float: right;
+}
+
 #profile {
     margin: 0;
 }

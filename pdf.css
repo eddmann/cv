@@ -12,6 +12,10 @@ section {
     margin: 0 !important;
 }
 
+#pdf {
+    display: none !important;
+}
+
 section#profile p {
     margin-bottom: 10px !important;
 }
