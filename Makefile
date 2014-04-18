@@ -6,7 +6,8 @@ html: cv.md cv.css
 	-c cv.css -f markdown -t html5 -o index.html cv.md
 
 pdf: html pdf.css
-	wkhtmltopdf --user-style-sheet pdf.css index.html EdwardMannDeveloperCV.pdf
+	# wkhtmltopdf --user-style-sheet pdf.css index.html EdwardMannDeveloperCV.pdf
+	vagrant ssh -c "xvfb-run --server-args=\"-screen 0, 1024x680x24\" wkhtmltopdf --user-style-sheet /vagrant/pdf.css /vagrant/index.html /vagrant/EdwardMannDeveloperCV.pdf"
 
 watch:
 	watchmedo shell-command --patterns="*.md;*.css" --command='make' .
