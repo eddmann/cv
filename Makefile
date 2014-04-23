@@ -18,7 +18,7 @@ watch:
 serve:
 	python -m http.server 8080
 
-push: html pdf
+push: html pdf txt
 	ssh eddmann.com 'rm -rf /srv/www/eddmann/public/cv/*'
 	scp index.html cv.css cv.txt EdwardMannDeveloperCV.pdf eddmann.com:/srv/www/eddmann/public/cv/
 	scp -r fonts eddmann.com:/srv/www/eddmann/public/cv/
