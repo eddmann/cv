@@ -64,7 +64,7 @@ Work Experience
 
 *   Freelance
 
-    Software Developer
+    Software Developer, 2013 - Present
 
     -   Long-term Laravel 4 project with Sphinx
 
@@ -74,7 +74,7 @@ Work Experience
 
 *   360 Software Solutions
 
-    Web Developer
+    Web Developer, 2011 - 2013
 
     -   Developed a modular MVC PHP content-management platform
 
