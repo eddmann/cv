@@ -1,4 +1,4 @@
-all: clean html pdf
+all: clean html pdf txt
 
 html: cv.md cv.css
 	pandoc --data-dir=. --section-divs \
@@ -9,6 +9,9 @@ pdf: html pdf.css
 	# wkhtmltopdf --user-style-sheet pdf.css index.html EdwardMannDeveloperCV.pdf
 	vagrant ssh -c "xvfb-run --server-args=\"-screen 0, 1024x680x24\" wkhtmltopdf --user-style-sheet /vagrant/pdf.css /vagrant/index.html /vagrant/EdwardMannDeveloperCV.pdf"
 
+txt: cv.md
+	pandoc -f markdown -o cv.txt cv.md
+
 watch:
 	watchmedo shell-command --patterns="*.md;*.css" --command='make' .
 
@@ -17,8 +20,8 @@ serve:
 
 push: html pdf
 	ssh eddmann.com 'rm -rf /srv/www/eddmann/public/cv/*'
-	scp index.html cv.css EdwardMannDeveloperCV.pdf eddmann.com:/srv/www/eddmann/public/cv/
+	scp index.html cv.css cv.txt EdwardMannDeveloperCV.pdf eddmann.com:/srv/www/eddmann/public/cv/
 	scp -r fonts eddmann.com:/srv/www/eddmann/public/cv/
 
 clean:
-	rm -f *.html *.pdf
+	rm -f *.html *.pdf cv.txt
