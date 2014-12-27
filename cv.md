@@ -40,14 +40,14 @@ Skills
 *   PHP
 *   Python
 *   JavaScript
+*   Swift (iOS)
 *   Scala
-*   Unit Testing/BDD
-*   Titanium SDK
+*   Unit Testing/TDD
 *   Git
-*   Sphinx
+*   DDD
 *   Unix
-*   Laravel
-*   MySQL
+*   Symfony 2
+*   PostgreSQL
 
 
 Interests
@@ -62,9 +62,19 @@ Interests
 Work Experience
 ---------------
 
+*   MyBuilder Limited
+
+    Software Engineer, 2014 - Present
+
+    -   PHP based Symfony 2 Web application
+
+    -   Use of Git, Jenkins, PHPUnit, PostgreSQL
+
+    -   Experience using DDD and TDD in production
+
 *   Freelance
 
-    Software Developer, 2013 - Present
+    Software Developer, 2013
 
     -   Long-term Laravel 4 project with Sphinx
 
@@ -81,10 +91,6 @@ Work Experience
     -   Lead development on a large web-based mobile search engine startup
 
     -   Created and shipped an iOS/Android mobile application using Titanium
-
-*   Robert Dyas
-
-    Part-time Sales Assistant
 
 
 Education
